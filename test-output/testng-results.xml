@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-07T15:42:01 IST" name="Default suite" finished-at="2023-08-07T15:42:02 IST" duration-ms="1583">
+    <groups>
+    </groups>
+    <test started-at="2023-08-07T15:42:01 IST" name="Default test" finished-at="2023-08-07T15:42:02 IST" duration-ms="1583">
+      <class name="com.rest.FormAuthentication">
+        <test-method is-config="true" signature="beforeCLass()[pri:0, instance:com.rest.FormAuthentication@4a94ee4]" started-at="2023-08-07T15:42:01 IST" name="beforeCLass" finished-at="2023-08-07T15:42:01 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCLass -->
+        <test-method signature="authenticationusing_CSRFtoken_fetch_multiple_cookie()[pri:0, instance:com.rest.FormAuthentication@4a94ee4]" started-at="2023-08-07T15:42:01 IST" name="authenticationusing_CSRFtoken_fetch_multiple_cookie" finished-at="2023-08-07T15:42:02 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationusing_CSRFtoken_fetch_multiple_cookie -->
+      </class> <!-- com.rest.FormAuthentication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
