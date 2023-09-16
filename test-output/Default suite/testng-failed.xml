@@ -5,8 +5,8 @@
     <classes>
       <class name="com.rest.FormAuthentication">
         <methods>
-          <include name="authenticationusing_CSRFtoken_fetch_single_cookie"/>
           <include name="beforeCLass"/>
+          <include name="authenticationusing_CSRFtoken"/>
         </methods>
       </class> <!-- com.rest.FormAuthentication -->
     </classes>

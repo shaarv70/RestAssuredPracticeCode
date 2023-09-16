@@ -96,8 +96,7 @@ public class AutomateComplexPojo
 		String after =objectmapper.writeValueAsString(deserialzed);
         JSONAssert.assertEquals(initial, after, 
 				new CustomComparator(JSONCompareMode.STRICT,  //it will check the order of reponse in the same order
-				new Customization("collection.item[*].item[*].request.url",(o1,o2)->{return true;
-						}//here we have used * for the list because in these list also maybe url also present, so to specify our url we have mention in this way
+				new Customization("collection.item[*].item[*].request.url",(o1,o2)->{return true;}//here we have used * for the list because in these list also maybe url also present, so to specify our url we have mention in this way
 			)));
 		
 			List<String> URLRequestList= new ArrayList<>();

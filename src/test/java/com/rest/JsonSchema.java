@@ -12,6 +12,7 @@ public class JsonSchema {
 		
 		given().
 		baseUri("https://postman-echo.com").
+		log().all().
 		
 		
 		when().get("/get").

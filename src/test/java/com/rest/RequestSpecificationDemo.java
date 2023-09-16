@@ -79,7 +79,7 @@ public class RequestSpecificationDemo {
 	public void test2()
 	{   //work in case of requestspecification
 		
-		Response response= requestspecefication.get("/workspaces").then().log().all().extract().response();                //Response is an interface
+		Response response= requestspecefication.get("/workspaces").then().log().all().extract().response(); //Response is an interface
 		assertThat(response.statusCode(),is(equalTo(200)));
 		
 	}

@@ -1,6 +1,5 @@
 package com.rest;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -73,8 +72,8 @@ public class AutomateGet
 
 
 		System.out.println(res.asString());
-	//	System.out.println(res.path("workspaces[0].name"));// it will extract single value 
-
+		//System.out.println(res.path("workspaces[0].name"));// it will extract single value 
+      
 	}
 
 	@Test
