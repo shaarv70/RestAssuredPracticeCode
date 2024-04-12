@@ -22,7 +22,7 @@ public class AutomateDelete {
 	{
 		RequestSpecBuilder requestspecbuilder = new RequestSpecBuilder();
 		requestspecbuilder.setBaseUri("https://api.postman.com");
-		requestspecbuilder.addHeader("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d");
+		//requestspecbuilder.addHeader("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d");
 		requestspecbuilder.setContentType(ContentType.JSON);
 		//requestspecbuilder.log(LogDetail.ALL);
 		RestAssured.requestSpecification = requestspecbuilder.build(); 

@@ -16,7 +16,7 @@ public class AutomateGet
 	{
 		given().
 		baseUri("https://api.postman.com").
-		header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
+		//header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
 
 		when().
 		get("/workspaces").
@@ -36,7 +36,7 @@ public class AutomateGet
 
 		given().
 
-		baseUri("https://api.postman.com").header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
+		//baseUri("https://api.postman.com").header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
 
 		when().
 
@@ -61,7 +61,7 @@ public class AutomateGet
 
 		Response res=  given().
 
-				baseUri("https://api.postman.com").header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
+			//	baseUri("https://api.postman.com").header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
 
 				when().
 
@@ -81,7 +81,7 @@ public class AutomateGet
 	{
 		String res= given().
 
-				baseUri("https://api.postman.com").header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
+			//	baseUri("https://api.postman.com").header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
 
 				when().
 
@@ -102,7 +102,7 @@ public class AutomateGet
     	String name= given().
 
 				baseUri("https://api.postman.com").
-				header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
+				//header("x-api-key","PMAK-649e4ac06fcfef196e4bdf45-d4e9e21189547e439427e428e4559d338d").
 
 				when().
 

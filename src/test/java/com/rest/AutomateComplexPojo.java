@@ -42,7 +42,7 @@ public class AutomateComplexPojo
 	{
 		RequestSpecBuilder requestspecbuilder = new RequestSpecBuilder();
 		requestspecbuilder.setBaseUri("https://api.postman.com");
-		requestspecbuilder.addHeader("x-api-key","PMAK-65db8945408f690001de2542-116b40287d706ff099ccc8f69c5a80c733");
+		//requestspecbuilder.addHeader("x-api-key","PMAK-65db8945408f690001de2542-116b40287d706ff099ccc8f69c5a80c733");
 		requestspecbuilder.log(LogDetail.ALL);
 		requestspecbuilder.addHeader("Content-Type","application/json;charset=utf-8");
 		requestSpecification = requestspecbuilder.build(); 
