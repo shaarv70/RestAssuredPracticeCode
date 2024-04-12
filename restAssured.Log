@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://postman-echo.com/get?foo1=value1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	foo1=value1
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
