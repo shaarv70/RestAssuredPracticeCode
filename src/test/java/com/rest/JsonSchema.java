@@ -20,7 +20,7 @@ public class JsonSchema {
 		
 		then().
 		log().all().
-		assertThat().statusCode(200).assertThat().
+		assertThat().statusCode(200).
 		body(matchesJsonSchemaInClasspath("JsonSchemaFile.json"));
 		
 		

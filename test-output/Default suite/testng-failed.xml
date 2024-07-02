@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.AutomateComplexPojo">
+      <class name="com.rest.FormAuthentication">
         <methods>
-          <include name="before_class"/>
-          <include name="Serialize_and_deserialize"/>
+          <include name="authenticationusing_CSRFtoken_fetch_multiple_cookie"/>
+          <include name="beforeCLass"/>
         </methods>
-      </class> <!-- com.rest.AutomateComplexPojo -->
+      </class> <!-- com.rest.FormAuthentication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

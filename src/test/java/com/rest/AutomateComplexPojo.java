@@ -128,7 +128,15 @@ public class AutomateComplexPojo
 				
 			}
 
-
+			/* we can also compare two json responses by the below approach
+			 * JSONObject json1 = new JSONObject(response1.asString()); JSONObject json2 =
+			 * new JSONObject(response2.asString());
+			 * 
+			 * // Compare the JSON objects try { JSONAssert.assertEquals(json1, json2,
+			 * false); System.out.println("The JSON responses are equal."); } catch
+			 * (AssertionError e) { System.out.println("The JSON responses are not equal: "
+			 * + e.getMessage()); }
+			 */
 
 
 
